@@ -1,0 +1,84 @@
+@media (max-width:48em) {
+
+section#intro li {
+	padding-bottom: 1em;
+}
+section#intro {
+	background-image: url(../imgs/lem.jpg);
+	background-size: cover;
+
+}
+
+header a, header li {
+	padding: 1.4rem 0;
+	color: #777;
+	font-weight: bold;
+}
+section#intro h1, h2 {
+	color: #fff;
+}
+
+}
+
+section#near-you p {
+
+	padding-top: 1rem;
+}
+section#contact {
+	background-color: #191919;
+	
+}
+
+section#contact h3 {
+	color: #fff;
+}
+
+section#contact input, textarea {
+	margin-left:10px;
+	margin-right: 10px;
+	width:90%;
+}
+
+
+@media (min-width:48em) { 
+	section#intro {
+	background-image: url(../imgs/dog.jpg);
+	background-size: cover;
+	height: 1000px;
+}
+
+header a, header li {
+	padding: 1.4rem 0;
+	color: #777;
+	font-weight: bold;
+}
+
+section#intro h1, h2 {
+	color: #fff;
+}
+
+section#intro .wrap-headline {
+	position: relative;
+	padding-top:20%;
+	padding-bottom: 20%;
+}
+
+section#contact input, textarea {
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+.card {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+}
